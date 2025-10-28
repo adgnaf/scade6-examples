@@ -1,0 +1,19 @@
+-- auto mixed 
+node 
+#pragma kcg no_seperate_io #end
+mixed(b : bool) returns (y : int32)
+let
+  automaton 
+  initial state A
+  let
+    y = 0 -> pre(y + 1);
+  tel
+  until if b restart B;
+
+  state B
+  unless if b restart A;
+  let
+    y = 0 -> pre(y - 1);
+  tel
+  returns ..;
+tel
