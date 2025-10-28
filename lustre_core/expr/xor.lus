@@ -1,4 +1,0 @@
-function xorExpr(a, b: bool) returns (c: bool) 
-let 
-  c = a xor b;
-tel 

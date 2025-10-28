@@ -1,0 +1,5 @@
+function unaryMinus(i: int) returns (o: int) 
+let 
+ o = -i;
+tel 
+

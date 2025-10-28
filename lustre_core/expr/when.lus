@@ -1,4 +1,0 @@
-function whenExpr(ck: bool; i: int) returns (o: int when ck) 
-let 
-  o = i when ck;
-tel 

@@ -1,4 +1,0 @@
-function andExpr(a,b: bool) returns (c: bool) 
-let 
-  c = a and b;
-tel 

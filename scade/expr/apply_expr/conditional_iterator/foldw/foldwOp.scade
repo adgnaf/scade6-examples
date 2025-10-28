@@ -1,0 +1,12 @@
+-- (foldw operator <<expr>> if expr)(list)
+
+function foldwOp() returns (idx, acc: int32)
+  idx, acc = (foldw subOp <<10>> if true)(1);
+
+function 
+#pragma kcg expand #end 
+subOp(i: int32) returns (cond: bool; o: int32)
+let
+  cond = i < 42;
+  o = i;
+tel
