@@ -1,6 +1,6 @@
-# SynchroPLLearning
+# Scade 6 examples, and examples of other synchronous programming languages
 
-Learning synchronous programming Languages by examples.
+Learning synchronous programming languages by examples.
 
 * `lustre_core` - Lustre Core examples 
 * `lustre_v6` - Lustre v6 specific examples 
